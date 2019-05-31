@@ -25,14 +25,20 @@ In this challenge, create a web API around the following resources: `Projects` a
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Mention two parts of Express that you learned about this week.
+Express is like React but for backend. We can use Exprses to build web apps and build RESTful web services
 
 - [ ] Describe Middleware?
+There are three groups of middleware, built-in, third party, and custom middleware.
+Built in is what is included within Express. Third party middleware are the ones we can install and import for use. Custom middleware are functions we write to perform certain tasks. 
 
 - [ ] Describe a Resource?
+A source of information that helps us by educating us.
 
 - [ ] What can the API return to help clients know if a request was successful?
+It should returns errors and messages and the res status. Example: error(500)
 
 - [ ] How can we partition our application into sub-applications?
+Use files with routes and a specific port for the server to listen to.
 
 ## Project Setup
 
